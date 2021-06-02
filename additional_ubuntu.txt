@@ -28,3 +28,4 @@ rm google-chrome-stable_current_amd64.deb
 
 # echo 'alias tohhi="sudo openconnect openconnect.hhi.fraunhofer.de"'
 # echo 'alias workstation="ssh gerstenberger@h9ym62"'
+https://www.wg-gesucht.de/wg-zimmer-und-1-zimmer-wohnungen-in-Berlin.8.0+1.1.1.html?categories=0%2C1&city_id=8&rent_type=0&sort_column=1&noDeact=1&radLat=52.5142069&radLng=13.330877&radAdd=Salzufer%2C+Berlin%2C+Deutschland%2C+10587&radDis=2000&img=1&rent_types%5B0%5D=0
