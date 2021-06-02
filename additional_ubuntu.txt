@@ -1,0 +1,30 @@
+# Basic setup (admin)
+sudo -i
+sudo apt update && sudo apt dist-upgrade && sudo apt autoremove 
+sudo ubuntu-drivers detect
+sudo ubuntu-drivers -h
+sudo ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+
+# Install openssh and openconnect (client and server)
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl status ssh
+sudo apt-get install openconnect
+
+# Install curl
+sudo apt install curl
+
+# Install teams
+sudo apt update
+sudo apt install teams
+
+# Install Google Chrome
+sudo dpkg -i /home/john/Downloads/google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt -f install
+rm google-chrome-stable_current_amd64.deb
+
+# echo 'alias tohhi="sudo openconnect openconnect.hhi.fraunhofer.de"'
+# echo 'alias workstation="ssh gerstenberger@h9ym62"'
