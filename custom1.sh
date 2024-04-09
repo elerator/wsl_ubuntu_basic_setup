@@ -1,8 +1,8 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 cd ~
-curl -O https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
-bash Anaconda3-2020.02-Linux-x86_64.sh -b
+curl -O Anaconda3-2024.02-1-Linux-x86_64.sh	
+bash Anaconda3-2024.02-1-Linux-x86_64.sh -b
 #cd ..
 #rm -r tmp
 chmod 777 .conda
